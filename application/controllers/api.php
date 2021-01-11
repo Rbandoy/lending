@@ -102,4 +102,10 @@ class Api extends CI_Controller {
 		$res = $this->sp_model->withdrawShare($id, $amount);  
 		echo json_encode($res, true);
 	}
+
+	public function vcode() {
+		$date = new DateTime();
+		$VCODE = substr(base_convert(sha1('09271474993GPRSKEY@)!$%@2019fuk!!x!xXx!!!xsexxXxXxxemail'.$date->getTimestamp()), 16, 10), 4,4);
+		echo $VCODE;
+	}
 }

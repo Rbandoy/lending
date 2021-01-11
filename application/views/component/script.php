@@ -43,7 +43,8 @@
             $.ajax(settings).done(function (response) { 
                   let res = JSON.parse(response); 
                   if (res[0].S == 1) {
-                        $("#transNo").append("TRANSACTION No:" +"<a target='_blank' href='http://127.0.0.1:9999/portal/lending_receipt/"+res[0].transNo+"'><strong>"+res[0].transNo+"</strong></a>"); 
+                        $("#transNo").append("RECEIPT: " +"<a target='_blank' href='http://127.0.0.1:9999/portal/lending_receipt/"+res[0].transNo+"'><strong>"+res[0].transNo+"</strong></a>"); 
+                        $("#transNo").append("<br>VOUCHER: " +"<a target='_blank' href='http://127.0.0.1:9999/portal/voucher/"+res[0].transNo+"'><strong>"+res[0].transNo+"</strong></a>"); 
                         $("#borrowMoney").attr("disabled", true);
                   } else if(res[0].S == 0) {
                         $("#transNo").append("<strong>" +"<strong>"+res[0].M+"</strong>"); 
