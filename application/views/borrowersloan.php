@@ -5,8 +5,8 @@
           <div class="card shadow mb-12">
          
             <div class="card-header py-3 d-sm-flex align-items-center justify-content-between mb-4">
-              <h1 class="h3 mb-0 text-gray-800">Borrower's Loan List</h1>
-              <a href="#"  data-toggle="modal" data-target="#createBorrower"  class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Add Borrower</a>
+              <h1 class="h3 mb-0 text-gray-800">Member's Loan List</h1>
+              <a href="#"  data-toggle="modal" data-target="#createBorrower"  class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Add Member</a>
          
             </div>
             <div class="card-body">

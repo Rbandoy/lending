@@ -222,7 +222,7 @@
                 </div>
                 <!-- <?php $this->load->view('component/loading');?> -->
                 <a href="#" id="createAccount" onClick="createAccount();" class="btn btn-primary btn-user btn-block">
-                  Register Borrower
+                  Register Member
                 </a>
             </div>
         </form>

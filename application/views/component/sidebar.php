@@ -46,13 +46,13 @@
 <li class="nav-item">
   <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
     <i class="fas fa-fw fa-wrench"></i>
-    <span>Borrower</span>
+    <span>Member</span>
   </a>
   <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
     <div class="bg-white py-2 collapse-inner rounded">
-      <h6 class="collapse-header">Borrower:</h6>
-      <a class="collapse-item" href="<?php echo base_url('borrower');?>">Borrower</a> 
-      <a class="collapse-item" href="<?php echo base_url('Borrowersloan');?>">Borrower Loan</a> 
+      <h6 class="collapse-header">Member:</h6>
+      <a class="collapse-item" href="<?php echo base_url('borrower');?>">Member</a> 
+      <a class="collapse-item" href="<?php echo base_url('Borrowersloan');?>">Member Loan</a> 
       <!-- <a class="collapse-item" href="<?php echo base_url('borrowEntry');?>">Borrower Entry</a>  -->
       <a class="collapse-item" href="<?php echo base_url('borrowmoney');?>">Payment</a> 
       <a class="collapse-item" href="<?php echo base_url('borrowEntry');?>">General Report</a>
